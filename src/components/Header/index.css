@@ -1,5 +1,6 @@
 .header {
-    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.25) ;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.25);
+    width: 100%;
 }
 
 .header-container {
@@ -19,11 +20,16 @@
 .header-container .menu a {
     margin: 0 20px;
     color: #FB9F2C;
+    text-decoration: none;
 
     transition: color 0.3s;
 }
 
 .header-container .menu a:hover {
+    color: #2DB7FA;
+}
+
+.header-container .menu a:active {
     color: #2DB7FA;
 }
 

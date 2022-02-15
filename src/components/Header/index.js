@@ -6,7 +6,7 @@ export default function Header() {
             <div className='header-container'>
                 <h3>Bem vindo!</h3>
                 <div className='menu'>
-                    <a href='#'>Sobre mim</a>
+                    <a href='#' active>Sobre mim</a>
                     <a href='#'>Trabalhos</a>
                     <a href='#'>Contato</a>
                     <a href='https://drive.google.com/uc?export=download&id=1TA_pWefRvNhifAceLlbxTAlGF5Aihomp'>Currículo</a>

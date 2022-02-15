@@ -13,11 +13,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-button {
-  cursor: pointer;
+.App {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
