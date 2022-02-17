@@ -22,10 +22,39 @@
     max-width: 1200px;
 }
 
-.informations .informations-container-1 h2 {
+.informations .informations-container-1 h2, .works h2 {
     text-align: center;
     color: #2DB7FA;
     margin-bottom: 30px;
     font-family: 'Dancing Script';
     font-size: 36px;
 }
+
+.informations .informations-container-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.informations .informations-container-2 div iframe {
+    margin: 20px 0 0 0;
+    text-decoration: none;
+    border: 1px solid #2DB7FA ;
+}
+
+.informations .informations-container-2 a {
+    text-align: center;
+    margin: 8px 0 15px;
+    color: #FB9F2C;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+
+    transition: color 0.3s;
+}
+
+.informations .informations-container-2 a:hover {
+    color: #2DB7FA;
+}
+
+
