@@ -17,19 +17,24 @@
     justify-content: space-between;
 }
 
-.header-container .menu a {
+input {
+    display: none;
+}
+
+.header-container .menu label, .header-container .menu a {
     margin: 0 20px;
     color: #FB9F2C;
     text-decoration: none;
+    cursor: pointer;
 
     transition: color 0.3s;
 }
 
-.header-container .menu a:hover {
+.header-container .menu label:hover, .header-container .menu a:hover {
     color: #2DB7FA;
 }
 
-.header-container .menu a:active {
+.header-container .menu input[type="radio"]:checked+ label {
     color: #2DB7FA;
 }
 
